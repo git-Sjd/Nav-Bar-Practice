@@ -1,0 +1,70 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#navbar{
+    background-color: rgb(146, 9, 151);
+    width: 80vw;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 12px;
+    
+}
+
+#searchbar{
+    padding: 0px 12px 0px 0px;
+}
+
+#input{
+    font-size: 22px;
+    background-color: rgb(240, 236, 231);
+    border-radius: 15px;
+    border: 1px solid transparent;
+    text-align: left;
+}
+
+#btn{
+ font-size: 22px;
+ padding: 5px;
+ border-radius: 10px;
+ margin:0px 20px;
+}
+
+.cont{
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 0px 10px;
+   
+    
+
+}
+#menu{
+    width:40%;
+    margin:0px 18px;
+    
+}
+.cont:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    color: white;
+    background-color: black;
+
+}
+#menu:nth-child(2){
+    color: rgb(139, 19, 99);
+
+}
